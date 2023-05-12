@@ -27,7 +27,7 @@ const HajjInfo = () => {
                     </nav>
                 </div>
             <div className=''>
-                <div className='px-12 py-20 grid grid-cols-responsiveLayoutHajj gap-3'>
+                <div className='px-12 py-20 grid grid-cols-responsiveLayoutHajj gap-3 md:grid-cols-responsiveLayoutHajjDefault'>
                     <div className='bg-slate-200 p-2 rounded-md'>
                         <h2>City/Hotel/Street Name</h2>
                         <p>Enter your city</p>

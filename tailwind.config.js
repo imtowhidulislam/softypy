@@ -26,6 +26,7 @@ export default {
       gridTemplateColumns:{
         responsiveLayout: 'repeat(auto-fit, minmax(15rem, 1fr))',
         responsiveLayoutHajj : 'repeat(auto-fit, minmax(20rem, 1fr))',
+        responsiveLayoutHajjDefault : 'repeat(auto-fit, minmax(30rem, 1fr))',
         responsiveLayoutHajj1 : 'repeat(auto-fit, minmax(9rem, 1fr))'
       }
     },

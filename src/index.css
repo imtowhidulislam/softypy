@@ -29,6 +29,21 @@ body{
   }
 /* !! Product Style End */
 
+/* ?? Hero Image Style Start */
+.HeroImg{
+  background-image: url("https://unsplash.it/1000/400?image=342");
+  background-position: top center;
+  background-size: cover;
+  padding-block: 4rem;
+}
+.Hajj{
+  position: absolute;
+  top: 60%;
+  left : 0%;
+  width: 100%;
+}
+/* ?? Hero Image Style End */
+
 /* *** Navbar Style Start */
   .list{
     list-style: none;
