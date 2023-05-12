@@ -65,7 +65,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <Button bgColor="button" textBtn="Button" />
         </div>
     </div>
   )

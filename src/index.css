@@ -38,3 +38,41 @@ body{
     text-decoration: none;
   }
 /* *** Navbar Style End */
+
+/* !! Banner Style Start */
+  .video{
+    position: absolute;
+    top: 50%;
+    left:  10%;
+    transform: translate(-50%,-50%);
+  }
+  .video > *{
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: bold;
+  }
+/* !! Banner Style End */
+
+/* ?? Quote Section Style Start */
+.arrows{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrows > *{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.quote{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  transform: translate(-50%,-50%);
+}
+.quote > *{
+  font-size: 12rem;
+  color: #c8ebf6;
+}
+/* ?? Quote Section Style End */

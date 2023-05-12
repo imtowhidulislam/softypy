@@ -24,7 +24,9 @@ export default {
         shadowOne : "0px 2px 12px rgba(25, 171, 227, 0.3)"
       },
       gridTemplateColumns:{
-        responsiveLayout: 'repeat(auto-fit, minmax(15rem, 1fr))'
+        responsiveLayout: 'repeat(auto-fit, minmax(15rem, 1fr))',
+        responsiveLayoutHajj : 'repeat(auto-fit, minmax(20rem, 1fr))',
+        responsiveLayoutHajj1 : 'repeat(auto-fit, minmax(9rem, 1fr))'
       }
     },
   },
