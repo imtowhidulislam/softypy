@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @tailwind variants; */
+
+/* !! Global Style */
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins sans-serif;
+}
+
+/* ??? Reguler Style */
+
+/* !! Product Style Start */
+  .card{
+    /* border: 2px solid red; */
+    max-width: 350px;
+    padding: 0.75rem;
+  }
+  .imgContainer{
+    height: 70%;
+    overflow: hidden;
+  }
+  .imgContainer > img{
+  }
+/* !! Product Style End */
