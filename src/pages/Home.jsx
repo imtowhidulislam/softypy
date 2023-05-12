@@ -13,7 +13,7 @@ const Home = () => {
         <ContactBar />
         <Navbar />
         <HeaderImg />
-        <ProductList title="Trending International Destinations Hotels" subTitle="The world is now just a hop, skip and jump away and here’s how you can make your travel easier and better." />
+          <ProductList title="Trending International Destinations Hotels" subTitle="The world is now just a hop, skip and jump away and here’s how you can make your travel easier and better." />
         <DiscountBanner />
         <ProductList title="Trending Indian Destinations Hotels" subTitle="India’s diverse topography, history and culture offers enough experiences to fulfil any type of wanderlust." />
         <Quote />
