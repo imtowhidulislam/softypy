@@ -35,15 +35,21 @@ body{
   background-position: top center;
   background-size: cover;
   padding-block: 4rem;
-  margin-bottom: 26rem;
+  margin-bottom: 35rem;
 }
 .Hajj{
   position: absolute;
   top: 60%;
   left : 0%;
   width: 100%;
-}
 
+}
+.whatsup{
+  position: absolute;
+  top: 85%;
+  left: 90%;
+  cursor: pointer;
+}
 /* ?? Hero Image Style End */
 
 /* *** Navbar Style Start */

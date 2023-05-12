@@ -1,18 +1,19 @@
 import React from 'react'
 import {TiPlaneOutline} from "react-icons/ti"
-import {FaHotel,FaCcVisa,FaTrain,FaWhatsappSquare,FaBusAlt} from "react-icons/fa"
+import {FaHotel,FaCcVisa,FaTrain,FaWhatsappSquare,FaBusAlt,FaWhatsapp} from "react-icons/fa"
 // import {MdOutlineCardTravel} from " react-icons/md"
 // import {IoBusOutline} from "react-icons/io"
 import {GiFootTrip} from "react-icons/gi"
 import Hajj from "../assets/macca.png"
+import Button from '../util/Button'
 
 
 const HajjInfo = () => {
   return (
     <div>
         <div className='grid place-items-center'>
-            <div className='container bg-[#443b3b6e] rounded-2xl overflow-hidden'>
-                <div className='bg-gray-200 flex items justify-between gap-12 px-4'>
+            <div className='container rounded-2xl overflow-hidden'>
+                <div className='bg-gray-200 flex justify-center gap-12 px-4'>
                     <div className='flex w-full items-center gap-3 py-4 px-4'>
                         <img src={Hajj} alt="Macca" />
                         <h2 className='font-bold text-xl'>Hajj & Umrah</h2>
@@ -27,7 +28,7 @@ const HajjInfo = () => {
                     </nav>
                 </div>
             <div className=''>
-                <div className='px-12 py-20 grid grid-cols-responsiveLayoutHajj gap-3 md:grid-cols-responsiveLayoutHajjDefault'>
+                <div className='shadow-shadowOne px-12 py-20 grid grid-cols-responsiveLayoutHajj gap-3 md:grid-cols-responsiveLayoutHajjDefault bg-[#e5e7e55e]'>
                     <div className='bg-slate-200 p-2 rounded-md'>
                         <h2>City/Hotel/Street Name</h2>
                         <p>Enter your city</p>
@@ -56,6 +57,12 @@ const HajjInfo = () => {
                         <h2>Rooms & Guests</h2>
                         <p>1 Person</p>
                     </div>
+                    <div className='grid place-items-center'>
+                        <Button textBtn="search hotels" />
+                    </div>
+                </div>
+                <div className='whatsup border-4 border-button p-2 w-max rounded-full'>
+                    <FaWhatsapp className='text-5xl text-button' />
                 </div>
             </div>
             </div>
