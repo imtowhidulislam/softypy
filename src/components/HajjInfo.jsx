@@ -11,7 +11,7 @@ import Button from '../util/Button'
 const HajjInfo = () => {
   return (
     <div>
-        <div className='grid place-items-center'>
+        <div className='grid place-items-center px-4'>
             <div className='container rounded-2xl overflow-hidden'>
                 <div className='bg-[#ffffff7f] border-b border-gray-600 grid place-items-center  md:flex md:justify-center gap-8'>
                     <div className='flex items-center gap-3 py-4 px-4 md:w-full'>
