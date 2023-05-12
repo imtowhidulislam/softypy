@@ -3,7 +3,7 @@ import ProductCard from '../util/ProductCard'
 
 function ProductList({title,subTitle}) {
   return (
-    <div className="">
+    <div className="grid place-items-center">
         {/* <h2>{title}</h2> */}
         {/* <h3>{subTitle}</h3> */}
         <h2 className="text-4xl font-bold text-center text-productTitle mb-4">Trending International Destinations Hotels</h2>
