@@ -46,9 +46,21 @@ body{
 }
 .whatsup{
   position: absolute;
-  top: 85%;
-  left: 90%;
+  top: 80%;
+  left: 82%;
   cursor: pointer;
+}
+@media (min-width:768px) {
+  .whatsup{
+    top: 80%;
+    left: 85%;
+  }
+}
+@media (min-width:900px) {
+  .whatsup{
+    top: 70%;
+    left: 90%;
+  }
 }
 /* ?? Hero Image Style End */
 
@@ -95,7 +107,13 @@ body{
   transform: translate(-50%,-50%);
 }
 .quote > *{
-  font-size: 12rem;
+  font-size: 4rem;
   color: #c8ebf6;
+}
+@media (min-width:768px) {
+  .quote > *{
+    font-size: 10rem;
+    color: #c8ebf6;
+  }
 }
 /* ?? Quote Section Style End */
