@@ -28,3 +28,13 @@ body{
   .imgContainer > img{
   }
 /* !! Product Style End */
+
+/* *** Navbar Style Start */
+  .list{
+    list-style: none;
+
+  }
+  .list a {
+    text-decoration: none;
+  }
+/* *** Navbar Style End */
