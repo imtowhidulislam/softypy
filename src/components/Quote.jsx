@@ -9,11 +9,11 @@ const Quote = () => {
         <div className='pb-12'>
             <Heading title="Customer satisfaction is our top priority" subTitle="Our clients praise us for our great results, personable service, expert knowledge. Here are what just a few of them had to say" />
         </div>
-        <div className='bg-messageBg grid place-items-center'>
+        <div className='bg-messageBg grid place-items-center px-4 md:px-0'>
             <div className='container'>
                 
                 <div className='relative grid place-items-center py-16'>
-                    <div className='max-w-2xl'>
+                    <div className='max-w-2xl px-12 sm:px-8 md:px-0'>
                         <h2 className='text-xl text-center'>
                         Your thoughtfulness and support of Ghuronti is very much appreciated. You are a very dear friend to the Chamber, and I want to assure you that your confidence in Ghuronti will be justified.
                         </h2>
